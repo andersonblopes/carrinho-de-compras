@@ -15,27 +15,27 @@ public class Carrinho implements Serializable {
     private double valorTotal;
 
     public int getPkcarrinho() {
-        return pkcarrinho;
+	return pkcarrinho;
     }
 
     public void setPkcarrinho(int pkcarrinho) {
-        this.pkcarrinho = pkcarrinho;
+	this.pkcarrinho = pkcarrinho;
     }
 
     public double getValorTotal() {
-        return valorTotal;
+	return valorTotal;
     }
 
     public void setValorTotal(double valorTotal) {
-        this.valorTotal = valorTotal;
+	this.valorTotal = valorTotal;
     }
 
     public boolean isAtivo() {
-        return ativo;
+	return ativo;
     }
 
     public void setAtivo(boolean ativo) {
-        this.ativo = ativo;
+	this.ativo = ativo;
     }
 
 }
